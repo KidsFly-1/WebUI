@@ -186,13 +186,10 @@ header .nav_logo .navbar {
 header .nav_logo .navbar a {
   font-size: 2rem;
   padding: 2rem;
-  border: 1px solid blue;
   margin: 0 10px;
-  border-radius: 20px;
 }
 header .nav_logo .navbar a:hover {
   color: blue;
-  background-color: violet;
 }
 .copyright {
   font-size: 16px;
@@ -217,17 +214,48 @@ body .mission .p4 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.info img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  padding-bottom: 1rem;
+}
+body {
+  width: 100%;
+  margin: 3%;
+}
+body .mission .p1 {
+  color: #ee36ee;
+  font-size: 4rem;
+  font-family: 'Zhi Mang Xing', cursive;
+}
+body .mission .p2,
+body .mission .p3,
+body .mission .p4 {
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+}
 .about_us {
-  background-image: url(../img/about_us_background.jpg);
+  background-image: url(../img/KF_background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.info img {
-  width: 30%;
-  height: auto;
-  border-radius: 50%;
-}
 .info {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+}
+.info div {
+  display: flex;
+  flex-direction: column;
+}
+.info div p,
+.info div a {
+  line-height: 0.4;
+  font-size: 1.6rem;
+}
+.info div a {
+  color: blue;
+  font-weight: 900;
 }
