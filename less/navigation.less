@@ -1,22 +1,39 @@
 header {
+
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .title {
         font-size: 6rem;
         color:blue;
         width: 100%;
-        text-align: center;
-        
-       
+        text-align: center;  
+    }//close title
 
-    }
     .nav_logo {
     // .display_style(row, center);
     display: flex;
     flex-direction: row;
     justify-content: center;
 
+    @media @phone {
+        flex-direction: column;;
+    }
+    
+    }
+
     .logo {
         width: 5%;
-        justify-content: flex-start
+        justify-content: flex-start;
+
+        @media @phone {
+            width: 15%;
+            height: 15%;
+            // justify-content: center;
+
+        }
     }//close logo
 
     .navbar {
@@ -24,13 +41,25 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+       
         a {
             font-size: 2rem;
             padding: 2rem;
             // border: 1px solid blue;
             margin: 0 10px;
             // border-radius: 20px;
-
+            @media @phone {
+                text-decoration: underline;
+                padding: 8px;
+            }
+            
             &:hover{
                 color: blue;
                 // background-color: violet;
@@ -39,6 +68,6 @@ header {
     }//close navbar
 
     
-    }
+    
     
 }

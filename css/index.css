@@ -163,6 +163,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  width: 100%;
+  background-image: url(../img/KF_background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 header .title {
   font-size: 6rem;
   color: blue;
@@ -174,21 +188,45 @@ header .nav_logo {
   flex-direction: row;
   justify-content: center;
 }
-header .nav_logo .logo {
+@media (max-width: 500px) {
+  header .nav_logo {
+    flex-direction: column;
+  }
+}
+header .logo {
   width: 5%;
   justify-content: flex-start;
 }
-header .nav_logo .navbar {
+@media (max-width: 500px) {
+  header .logo {
+    width: 15%;
+    height: 15%;
+  }
+}
+header .navbar {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-header .nav_logo .navbar a {
+@media (max-width: 500px) {
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header .navbar a {
   font-size: 2rem;
   padding: 2rem;
   margin: 0 10px;
 }
-header .nav_logo .navbar a:hover {
+@media (max-width: 500px) {
+  header .navbar a {
+    text-decoration: underline;
+    padding: 8px;
+  }
+}
+header .navbar a:hover {
   color: blue;
 }
 .copyright {
