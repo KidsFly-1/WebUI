@@ -258,6 +258,11 @@ body .mission .p4 {
   border-radius: 50%;
   padding-bottom: 1rem;
 }
+@media (max-width: 500px) {
+  .info img {
+    width: 30%;
+  }
+}
 body {
   width: 100%;
   margin: 3%;
@@ -283,6 +288,12 @@ body .mission .p4 {
   flex-direction: row;
   margin: 0 auto;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .info div {
   display: flex;
