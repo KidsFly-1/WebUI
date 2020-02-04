@@ -301,7 +301,7 @@ body .mission .p4 {
 }
 .info div p,
 .info div a {
-  line-height: 0.4;
+  line-height: normal;
   font-size: 1.6rem;
 }
 .info div a {
