@@ -218,6 +218,7 @@ header .navbar a {
   font-size: 2rem;
   padding: 2rem;
   margin: 0 10px;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   header .navbar a {
