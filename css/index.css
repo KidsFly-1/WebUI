@@ -219,6 +219,7 @@ header .navbar a {
   padding: 2rem;
   margin: 0 10px;
   text-decoration: none;
+  color: #f0eaea;
 }
 @media (max-width: 500px) {
   header .navbar a {
@@ -231,6 +232,7 @@ header .navbar a:hover {
 }
 .copyright {
   font-size: 16px;
+  color: #dad1d1;
 }
 body {
   width: 100%;
@@ -238,6 +240,7 @@ body {
 }
 body .mission p {
   font-size: 2.5rem;
+  color: #dad1d1;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   line-height: normal;
 }
@@ -294,6 +297,7 @@ body .mission .p4 {
   background-repeat: no-repeat;
 }
 .info {
+  color: #dad1d1;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
