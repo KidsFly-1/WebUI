@@ -168,7 +168,6 @@ body {
   background-image: url(../img/KF_background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 @media (max-width: 500px) {
   header {
@@ -239,6 +238,7 @@ body {
 body .mission p {
   font-size: 2.5rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: normal;
 }
 @media (max-width: 500px) {
   body .mission p {
