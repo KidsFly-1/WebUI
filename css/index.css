@@ -136,13 +136,6 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Indie Flower', cursive;
-}
 h1 {
   font-size: 4rem;
 }
@@ -236,12 +229,10 @@ header .navbar a:hover {
 }
 body {
   width: 100%;
-  margin: 3%;
 }
 body .mission p {
   font-size: 2.5rem;
   color: #dad1d1;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
   line-height: normal;
 }
 @media (max-width: 500px) {
@@ -250,15 +241,13 @@ body .mission p {
   }
 }
 body .mission .p1 {
-  color: #ee36ee;
+  color: #743674;
   font-size: 4rem;
-  font-family: 'Zhi Mang Xing', cursive;
 }
 body .mission .p2,
 body .mission .p3,
 body .mission .p4 {
   font-size: 3rem;
-  font-family: 'Dancing Script', cursive;
 }
 .home_page {
   background-image: url(../img/KF_background2.jpg);
@@ -278,18 +267,19 @@ body .mission .p4 {
 }
 body {
   width: 100%;
-  margin: 3%;
+}
+body .mission h2 {
+  color: #ee36ee;
+  font-size: 4rem;
 }
 body .mission .p1 {
   color: #ee36ee;
   font-size: 4rem;
-  font-family: 'Zhi Mang Xing', cursive;
 }
 body .mission .p2,
 body .mission .p3,
 body .mission .p4 {
   font-size: 3rem;
-  font-family: 'Dancing Script', cursive;
 }
 .about_us {
   background-image: url(../img/KF_background2.jpg);
@@ -313,6 +303,7 @@ body .mission .p4 {
 .info div {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .info div p,
 .info div a {
