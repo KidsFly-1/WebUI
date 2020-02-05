@@ -236,6 +236,15 @@ body {
   width: 100%;
   margin: 3%;
 }
+body .mission p {
+  font-size: 2.5rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+@media (max-width: 500px) {
+  body .mission p {
+    line-height: 0.8;
+  }
+}
 body .mission .p1 {
   color: #ee36ee;
   font-size: 4rem;
@@ -288,6 +297,7 @@ body .mission .p4 {
   flex-direction: row;
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .info {
