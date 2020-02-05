@@ -158,9 +158,6 @@ img {
 }
 body {
   width: 100%;
-  background-image: url(../img/KF_background2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 @media (max-width: 500px) {
   header {
@@ -226,14 +223,20 @@ header .navbar a:hover {
 .copyright {
   margin: 3%;
   font-size: 16px;
-  color: #dad1d1;
+  color: #f8f7f7;
 }
 body {
   width: 100%;
 }
+body .home_page {
+  background-image: url(../img/KF_background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3%;
+}
 body .mission p {
   font-size: 2.5rem;
-  color: #dad1d1;
+  color: #f8f7f7;
   line-height: normal;
 }
 @media (max-width: 500px) {
@@ -245,15 +248,27 @@ body .mission .p1 {
   color: #743674;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  body .mission .p1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
 body .mission .p2,
 body .mission .p3,
 body .mission .p4 {
   font-size: 3rem;
+  color: #f8f7f7;
 }
-.home_page {
-  background-image: url(../img/KF_background2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+@media (max-width: 500px) {
+  body .mission .p2,
+  body .mission .p3,
+  body .mission .p4 {
+    font-size: 0.2rem;
+  }
+}
+body .features {
+  color: red;
 }
 .info img {
   width: 60%;
@@ -286,13 +301,18 @@ body .mission .p3,
 body .mission .p4 {
   font-size: 3rem;
 }
-.about_us {
+.about_us body {
   background-image: url(../img/KF_background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (max-width: 500px) {
+  .about_us body {
+    height: 500vh;
+  }
+}
 .info {
-  color: #dad1d1;
+  color: #f8f7f7;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
