@@ -220,10 +220,11 @@ header .navbar a {
 header .navbar a:hover {
   color: blue;
 }
-.copyright {
-  margin: 3%;
+footer p {
   font-size: 16px;
-  color: #f8f7f7;
+  color: black;
+  text-align: center;
+  margin: 3px auto;
 }
 body {
   width: 100%;
@@ -235,8 +236,13 @@ body .home_page {
   padding-top: 3%;
   height: 100vh;
 }
+@media (max-width: 500px) {
+  body .home_page {
+    height: 60vh;
+  }
+}
 body .mission p {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #f8f7f7;
   line-height: normal;
 }
@@ -247,12 +253,13 @@ body .mission p {
 }
 body .mission .p1 {
   color: #743674;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 @media (max-width: 500px) {
   body .mission .p1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
+    margin-top: 10rem;
   }
 }
 body .mission .p2,
@@ -265,11 +272,29 @@ body .mission .p4 {
   body .mission .p2,
   body .mission .p3,
   body .mission .p4 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 body .features {
-  color: red;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .features div {
+  width: 33.3%;
+}
+body .features div h2 {
+  text-align: center;
+}
+body .features div p {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  body .features {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .info img {
   width: 60%;
