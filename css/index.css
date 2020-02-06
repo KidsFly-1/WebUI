@@ -166,11 +166,11 @@ body {
     align-items: center;
   }
 }
-header .title {
-  font-size: 6rem;
-  color: blue;
-  width: 100%;
-  text-align: center;
+header .title_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 header .nav_logo {
   display: flex;
@@ -233,6 +233,7 @@ body .home_page {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 3%;
+  height: 100vh;
 }
 body .mission p {
   font-size: 2.5rem;
@@ -250,7 +251,7 @@ body .mission .p1 {
 }
 @media (max-width: 500px) {
   body .mission .p1 {
-    font-size: 1rem;
+    font-size: 3rem;
     text-align: center;
   }
 }
@@ -264,7 +265,7 @@ body .mission .p4 {
   body .mission .p2,
   body .mission .p3,
   body .mission .p4 {
-    font-size: 0.2rem;
+    font-size: 1.5rem;
   }
 }
 body .features {
@@ -294,20 +295,21 @@ body .mission h2 {
 }
 body .mission .p1 {
   color: #ee36ee;
-  font-size: 4rem;
 }
-body .mission .p2,
-body .mission .p3,
-body .mission .p4 {
-  font-size: 3rem;
+@media (max-width: 500px) {
+  body .mission .p2,
+  body .mission .p3,
+  body .mission .p4 {
+    text-align: center;
+  }
 }
-.about_us body {
+.about_us {
   background-image: url(../img/KF_background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 @media (max-width: 500px) {
-  .about_us body {
+  .about_us {
     height: 500vh;
   }
 }

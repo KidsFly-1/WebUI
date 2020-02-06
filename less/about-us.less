@@ -14,14 +14,16 @@ body {
     
     .p1 {
         color: rgb(238, 54, 238);
-        font-size: 4rem;
+       // font-size: 4rem;
         // font-family: 'Zhi Mang Xing', cursive;
     }
 
     .p2, .p3, .p4 {
-        font-size: 3rem;
+        // font-size: 3rem;
         // font-family: 'Dancing Script', cursive;
-        
+       @media @phone {
+           text-align: center;
+       } 
     }
 
 }//close mission
@@ -29,19 +31,7 @@ body {
 
 }
 
-// .home_page {
-//     background-image: url(../img/KF_background2.jpg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-
-// .about_us {
-//     background-image: url(../img/about_us_background.jpg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-
-// }
-.about_us body{
+.about_us {
     background-image: url(../img/KF_background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
