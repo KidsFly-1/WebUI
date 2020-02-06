@@ -234,7 +234,6 @@ body .home_page {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 3%;
-  height: 100vh;
 }
 @media (max-width: 500px) {
   body .home_page {
@@ -243,7 +242,7 @@ body .home_page {
 }
 body .mission p {
   font-size: 3rem;
-  color: #f8f7f7;
+  color: #ffffff;
   line-height: normal;
 }
 @media (max-width: 500px) {
@@ -266,7 +265,7 @@ body .mission .p2,
 body .mission .p3,
 body .mission .p4 {
   font-size: 3rem;
-  color: #f8f7f7;
+  color: #ffffff;
 }
 @media (max-width: 500px) {
   body .mission .p2,
@@ -374,7 +373,7 @@ body .contact .form #submit {
   border-radius: 10px;
 }
 .info {
-  color: #f8f7f7;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
