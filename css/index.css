@@ -234,6 +234,7 @@ body .home_page {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 3%;
+  height: 100vh;
 }
 @media (max-width: 500px) {
   body .home_page {
@@ -243,6 +244,7 @@ body .home_page {
 body .mission p {
   font-size: 3rem;
   color: #ffffff;
+  background-color: green;
   line-height: normal;
 }
 @media (max-width: 500px) {
