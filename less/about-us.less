@@ -29,16 +29,69 @@ body {
 
 }//close mission
 
+    .about_us {
+        background-image: url(../img/KF_background2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-}
+        @media @phone {
+            height: 200vh;
+        }//close @media @phone
 
-.about_us {
-    background-image: url(../img/KF_background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    }//close about_us
 
-    @media @phone {
-        height: 500vh;
-    }
+    .contact {
+        margin-top: 20px;
+        
+        h2 {
+            text-align: center;
+        }
 
-}
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            #name, #email {
+                font-size: 2rem;
+                padding: 1rem;
+              
+                border-radius: 10px;
+                margin: 10px 30px;
+                width: 30%;
+            }
+
+            textarea {
+                width: 28rem;
+                height: 10rem;
+                font-size: 2rem;
+                padding: 1rem;
+                border-radius: 10px;
+            }
+
+            #submit {
+                // text-align: center;
+                // font-size: 2rem;
+                // padding: 1rem;
+                // width: 100%;
+                
+                // background-color: green;
+                font-size: 2rem;
+                padding: 1rem;
+                width: 100%;
+                background-color: #1A70E2;
+                border-radius: 10px;
+                margin: 10px 30px;
+                border: grey;
+                border-radius: 10px;
+            }
+    
+        }
+
+       
+        
+
+
+    }//close contact
+
+}//close body
