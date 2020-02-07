@@ -226,72 +226,77 @@ footer p {
   text-align: center;
   margin: 3px auto;
 }
-body {
-  width: 100%;
+html {
+  height: 100%;
 }
-body .home_page {
+html body {
+  width: 100%;
+  height: 100%;
+}
+html body .home_page {
   background-image: url(../img/KF_background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 3%;
-  height: 100vh;
+  background-position: center;
+  height: 80%;
 }
 @media (max-width: 500px) {
-  body .home_page {
+  html body .home_page {
     height: 60vh;
   }
 }
-body .mission p {
+html body .mission p {
   font-size: 3rem;
   color: #ffffff;
   line-height: normal;
 }
 @media (max-width: 500px) {
-  body .mission p {
+  html body .mission p {
     line-height: 0.8;
   }
 }
-body .mission .p1 {
+html body .mission .p1 {
   color: #743674;
   font-size: 5rem;
 }
 @media (max-width: 500px) {
-  body .mission .p1 {
+  html body .mission .p1 {
     font-size: 2.5rem;
     text-align: center;
     margin-top: 10rem;
   }
 }
-body .mission .p2,
-body .mission .p3,
-body .mission .p4 {
+html body .mission .p2,
+html body .mission .p3,
+html body .mission .p4 {
   font-size: 3rem;
   color: #ffffff;
 }
 @media (max-width: 500px) {
-  body .mission .p2,
-  body .mission .p3,
-  body .mission .p4 {
+  html body .mission .p2,
+  html body .mission .p3,
+  html body .mission .p4 {
     font-size: 2.5rem;
   }
 }
-body .features {
+html body .features {
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-body .features div {
+html body .features div {
   width: 33.3%;
 }
-body .features div h2 {
+html body .features div h2 {
   text-align: center;
 }
-body .features div p {
+html body .features div p {
   text-align: center;
 }
 @media (max-width: 500px) {
-  body .features {
+  html body .features {
     flex-direction: column;
     align-items: center;
   }
@@ -309,7 +314,6 @@ body .features div p {
 }
 body {
   width: 100%;
-  margin-top: 3%;
 }
 body .github {
   color: #d09d9d;
