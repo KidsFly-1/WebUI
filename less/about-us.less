@@ -1,91 +1,95 @@
 body {
-    // max-width: 800px;
-    
-    width: 100%;
-    margin-top: 3%;
-    
-    
-        
-.mission {
+  // max-width: 800px;
+
+  width: 100%;
+  margin-top: 3%;
+
+  .github {
+    color: #d09d9d;
+  }
+
+  .mission {
     margin: 3%;
     h2 {
-        color: rgb(238, 54, 238);
-        font-size: 4rem;
+      color: rgb(238, 54, 238);
+      font-size: 4rem;
     }
-    
+
     .p1 {
-        color: rgb(238, 54, 238);
-       // font-size: 4rem;
-        // font-family: 'Zhi Mang Xing', cursive;
+      color: rgb(238, 54, 238);
+      // font-size: 4rem;
+      // font-family: 'Zhi Mang Xing', cursive;
     }
 
-    .p2, .p3, .p4 {
-        // font-size: 3rem;
-        // font-family: 'Dancing Script', cursive;
-       @media @phone {
-           text-align: center;
-       } 
+    .p2,
+    .p3,
+    .p4 {
+      // font-size: 3rem;
+      // font-family: 'Dancing Script', cursive;
+      @media @phone {
+        text-align: center;
+      }
+    }
+  } //close mission
+
+  .about_us {
+    background-image: url(../img/KF_background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media @phone {
+      height: 200vh;
+    } //close @media @phone
+
+
+
+  } //close about_us
+
+  .contact {
+    margin-top: 20px;
+
+    h2 {
+      text-align: center;
     }
 
-}//close mission
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    .about_us {
-        background-image: url(../img/KF_background2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+      #name,
+      #email {
+        font-size: 2rem;
+        padding: 1rem;
 
-        @media @phone {
-            height: 200vh;
-        }//close @media @phone
+        border-radius: 10px;
+        margin: 10px 30px;
+        width: 30%;
+      }
 
-    }//close about_us
+      textarea {
+        width: 28rem;
+        height: 10rem;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 2px;
+        width: 30%;
+      }
 
-    .contact {
-        margin-top: 20px;
-        
-        h2 {
-            text-align: center;
-        }
-
-        .form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-            #name, #email {
-                font-size: 2rem;
-                padding: 1rem;
-              
-                border-radius: 10px;
-                margin: 10px 30px;
-                width: 30%;
-            }
-
-            textarea {
-                width: 28rem;
-                height: 10rem;
-                font-size: 2rem;
-                padding: 1rem;
-                border-radius: 10px;
-            }
-
-            #submit {
-                font-size: 2rem;
-                padding: 1rem;
-                width: 100%;
-                background-color: #1A70E2;
-                border-radius: 10px;
-                margin: 10px 30px;
-                border: grey;
-                border-radius: 10px;
-            }
-    
-        }
-
-       
-        
-
-
-    }//close contact
-
-}//close body
+      #submit {
+        font-size: 2rem;
+        padding: 1rem;
+        background-color: #1a70e2;
+        color: white;
+        border-radius: 10px;
+        margin: 10px 30px;
+        border: grey;
+        border-radius: 10px;
+        width: 20%;
+        cursor: pointer;
+      }
+    }
+  } //close contact
+} //close body
